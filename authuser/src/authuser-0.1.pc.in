@@ -1,0 +1,17 @@
+##
+## genclibpro ver.1.0 
+##
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+includedir=@includedir@/libauthuser-0.1
+
+Name: libauthuser
+Description: Ansi C library.
+Version: @VERSION@
+Requires: 
+Libs: -L${libdir} -lauthuser
+Cflags: -I${includedir}
+
