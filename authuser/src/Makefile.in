@@ -350,8 +350,8 @@ AM_CPPFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(pkgdatadir)"\"
 
 AM_CFLAGS = \
-	 -Wall\
-	 -g
+	-Wall \
+	-g
 
 lib_LTLIBRARIES = libauthuser.la
 libauthuser_la_SOURCES = \
