@@ -21,6 +21,8 @@ This tool requires these other modules and libraries:
 
 ```
 Standard ANSI libraries
+PAM
+PAM-Misc
 ```
 
 ### COPYRIGHT AND LICENCE
