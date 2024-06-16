@@ -10,8 +10,24 @@ AM_CPPFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(pkgdatadir)"\"
 
 AM_CFLAGS = \
+	-std=c11 \
+	-g \
+	-pedantic \
 	-Wall \
-	-g
+	-Wextra \
+	-Wcast-align \
+	-Wcast-qual \
+	-Wdisabled-optimization \
+	-Wformat=2 \
+	-Winit-self \
+	-Wlogical-op \
+	-Wmissing-declarations \
+	-Wmissing-include-dirs \
+	-Wshadow \
+	-Wstrict-overflow=5 \
+	-Wundef \
+	-Wno-overlength-strings \
+	-Wno-unused
 
 lib_LTLIBRARIES = libauthuser.la
 
@@ -32,5 +48,4 @@ pkgconfig_DATA = authuser-0.1.pc
 
 EXTRA_DIST = \
 	authuser-0.1.pc.in
-
 
